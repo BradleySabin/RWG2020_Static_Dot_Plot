@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>D3: A chart transition with controlled duration (labels, too!)</title>
+		<script type="text/javascript" src="https://d3js.org/d3.v4.js"></script>
+		<style type="text/css">
+			p {
+				font-family: Helvetica, sans-serif;
+				font-size: 15px;
+				color: #56595d;
+				text-align: center;
+			}
+
+			h2 {
+				font-family: Helvetica, sans-serif;
+				font-size: 15px;
+				color: #56595d;
+				text-align: center;
+			}
+
+			.xaxis path,
+			.xaxis line {
+				stroke: #57595D;
+
+			}
+
+			.xaxis text {
+				font-size: 14px;
+				color: #57595D;
+				font-family: arial;
+			}
+
+			.yaxis path,
+			.yaxis line {
+				stroke:none;
+				
+        	}	
+
+			.yaxis text {
+				font-size: 14px;
+				color: #333435;
+				font-family: arial;
+
+			}         
+
+			#myChart {
+				svg{
+					align-content: center;
+				}
+			}
+			
+			#tooltip {
+				position: absolute;
+				width: auto;
+				height: auto;
+				padding: 10px;
+				background-color: white;
+				-webkit-border-radius: 10px;
+				-moz-border-radius: 10px;
+				border-radius: 10px;
+				-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+				-moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+				box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+				pointer-events: none;
+				align-content: center;
+			}
+			
+			#tooltip.hidden {
+				display: none;
+			}
+			
+			#tooltip p {
+				margin: 0;
+				font-family: arial;
+				font-size: 14px;
+				line-height: 20px;
+				text-align: left
+			}
+
+		</style>
+	</head>
+	<body>
+		<div>
+			<h2>For every dollar a white man makes, how much does an equally qualifed person of a different Race or Gender make?</h2>
+		</div>	
+
+		<div id="tooltip" class="hidden" style="text-align:center;"	>
+			<p><strong><span id="TooltipTitle"></span></strong></p>
+			<p>$<span id="value"></span></p>
+		</div>
+
+
+		<div id="legend"
+			 style="text-align:center;">
+		</div>
+		
+
+		<div id="myChart"
+			 style="text-align:center;"> 
+		</div>
+
+
+		<script type="text/javascript" src="Dot_plot_RWG2020.js"> 
+
+
+		</script>
+
+
+	</body>
+</html>

@@ -1,0 +1,7 @@
+Race,Uncontrolled_Group_w,Controlled_Group_w,Uncontrolled_white_w,Uncontrolled_white_m,Controlled_white_w,Controlled_white_m,Controlled_white_formatted_w,Controlled_white_formatted_m
+American Indian,0.819,0.972,0.757,0.924,0.973,1.001,0.97,1.00
+Asian ,0.814,0.996,0.948,1.164,1.019,1.023,1.02,1.02
+Black,0.868,0.991,0.763,0.878,0.972,0.981,0.97,0.98
+Hispanic ,0.834,0.992,0.754,0.905,0.983,0.991,0.98,0.99
+Pacific Islander ,0.832,0.987,0.816,0.98,0.991,1.005,0.99,1.01
+White ,0.812,0.983,0.812,1,0.983,1,0.98,1.00
